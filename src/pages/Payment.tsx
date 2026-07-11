@@ -33,7 +33,7 @@ interface PaymentLocationState {
   address?: string;
 }
 
-const API_URL = 'zom-backend-production.up.railway.app/api';
+const API_URL = 'https://zom-backend-production.up.railway.app/api';
 
 export default function Payment() {
   const { clearCart } = useApp();
