@@ -27,7 +27,7 @@ function Signup({ onAuth }: SignupProps) {
      }
 
    try {
-     const response = await fetch('https://zoma-back-production.up.railway.app/api/users/signup', {
+     const response = await fetch('zom-backend-production.up.railway.app/api/users/signup', {
          method: 'POST',
          body: formData,
      });

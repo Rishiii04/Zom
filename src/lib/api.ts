@@ -1,6 +1,6 @@
 import { MenuItem, Restaurant } from '../context/AppContext';
 
-const API_URL = 'https://zoma-back-production.up.railway.app/api';
+const API_URL = 'zom-backend-production.up.railway.app/api';
 
 type ApiProduct = {
   id: number;
