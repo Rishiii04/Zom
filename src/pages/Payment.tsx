@@ -33,7 +33,7 @@ interface PaymentLocationState {
   address?: string;
 }
 
-const API_URL = 'http://localhost:8001/api';
+const API_URL = 'https://zoma-back-production.up.railway.app/api';
 
 export default function Payment() {
   const { clearCart } = useApp();
